@@ -1,0 +1,54 @@
+.green {
+	color: darkgreen;
+}
+
+.red {
+	color: red;
+}
+
+.hide {
+	display: none;
+}
+
+body {
+	background: linear-gradient(90deg, #fe49a4, #642bb7);
+}
+
+.container {
+	display:  flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.buttons {
+	display:  flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-top: 2rem;
+	width: 20rem;
+}
+
+.card {
+	width:  20rem;
+	text-align: center;
+}
+
+#displayScore {
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+#controls {
+	text-align: center;
+	width: 20rem;
+}
+
+#limit {
+	margin-bottom: 0.75rem;
+}
+
+#controls p {
+	font-size: 1rem;
+	font-weight: 400;
+}

@@ -1,0 +1,130 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background: linear-gradient(90deg, #3c72fa, #bc7ef1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.outer-container {
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+	flex-direction: column;
+	width: 23rem;
+	background-color: #0a0e31;
+	padding: 0.5rem 1rem;
+}
+
+.title {
+	color: lightgrey;
+	font-family: 'Patua One', cursive;
+	text-align: center;
+	margin: 1rem;
+}
+
+.password {
+	color: lightgrey;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.15rem;
+	overflow: hidden;
+  	white-space: nowrap;
+  	text-overflow: ellipsis;
+	display: block;
+	position: relative;
+	top: 5px;
+	margin-bottom: 2rem;
+}
+
+.miniTitle {
+	color: lightgrey;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#pwdLength {
+	color: lightgrey;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#customRange {
+	width: 80%;
+	position: relative;
+	top: 5px;
+}
+
+.rangeNumbers {
+	display: inline-block;
+	margin: 0.25rem;
+}
+
+.innerSettings label {
+	position: relative;
+	right: 30px;
+	top: 5px;
+}
+
+.innerSettings input {
+	color: lightgrey;
+	position: relative;
+	left: 250px;
+	top: 5px;
+}
+
+.innerSettings input:checked {
+	background-color: #4b73f9;
+}
+
+.blockDivisions {
+	height: 3.25rem;
+	width: 20rem;
+	color: lightgrey;
+	background-color: #1d2141;
+	font-family: 'Helvetica';
+	font-size: 1.05rem;
+	border-radius: 7.5px;
+	padding: 0.5rem;
+	margin: 0.5rem;
+}
+
+#generatePWD {
+	color: white;
+	background: linear-gradient(90deg, #0d6efd, violet);
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1rem;
+	letter-spacing: 0.1rem;
+	display: block;
+	height: 3rem;
+	width: 20rem;
+	margin: 0.5rem;
+	border: 0px solid;
+	border-radius: 10px;
+}
+
+#clipboard {
+	color: white;
+	background-color: #0a0e31;
+	font-family: 'Helvetica';
+	text-decoration: none;
+	float: right;
+	position: relative;
+	right: 10px;
+	top: -2.5px;
+	display: none;
+}
+
+.clipboard_text {
+	color: lightgrey;
+	visibility: hidden;
+	position: relative;
+	left: 90px;
+	top: -2px;
+}
+
+
+
