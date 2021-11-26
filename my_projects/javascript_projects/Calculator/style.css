@@ -1,0 +1,62 @@
+* {
+	margin: 0px;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	min-width: 360px;
+}
+
+#outer-container {
+	width: 20rem;
+	padding: 1.5rem 0rem;
+	border-radius: 0.5rem;
+}
+
+#inner-container {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	position: relative;
+	left: 0.5rem;
+	padding: 1rem;
+	top: 1rem;
+}
+
+#display {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 1.75rem;
+	width: 17rem;
+	height: 3.5rem;
+	margin-bottom: 2rem;
+	position: relative;
+	left: 0.75rem;
+	top: -1rem;
+	color: white;
+	background-color: darkslategray;
+}
+
+.row.d-inline-block {
+	margin: 0.15rem;
+}
+
+.btn.btn-success {
+	width: 4rem;
+}
+
+.btn.btn-light {
+	width: 4rem;
+}
+
+.btn.btn-danger {
+	width: 4rem;
+}
+
+.btn.btn-primary {
+	width: 16.85rem;
+	position: relative;
+	left: 0.9rem;
+	margin-top: 0.5rem;
+}

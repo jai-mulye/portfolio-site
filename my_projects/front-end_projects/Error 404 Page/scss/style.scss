@@ -1,0 +1,105 @@
+@import '_config';
+
+// Reset
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: $slate-blue;
+    font-family: $font-stack;
+    line-height: 1.6;
+    min-width: 360px;
+}
+
+// Utility Class
+.container {
+    max-width: 1200px;
+    padding: 0px 30px;
+    margin: 0 auto;
+    overflow: auto;
+    background-color: $slate-blue;
+}
+
+a {
+    text-decoration: none;
+    color: $white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+
+    h2 {
+        color: $white;
+    }
+
+    li {
+        list-style-type: none;
+    
+        a {
+            margin: 0.75rem;
+
+            &:hover {
+                color: $light-blue;
+            }
+        }
+    }
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    min-height: 400px;
+
+    .main-content {
+
+        h1 {
+            color: $white;
+            font-size: 50px;
+            margin-top: 4rem;
+        }
+    
+        h2 {
+            color: $light-blue;
+            font-size: 40px;
+            font-weight: 600;
+        }
+    
+        p {
+            font-size: 16px;
+            color: $white;
+            width: 20rem;
+            margin: 1rem 0;
+            margin-bottom: 2.6rem;
+        }
+
+        .buttons {
+            display: inline-block;
+            color: $light-blue;
+            font-weight: 700;
+            border: 1px $light-blue solid;
+            border-radius: 2rem 2rem 2rem 2rem;
+            padding: 0.6rem 2rem;
+            margin: 0 0.75rem;
+        
+            &:hover {
+                color: $white;
+                background-color: $light-blue;
+            }
+        }
+    }
+
+    #astronaut {
+        width: 40%;
+        margin-top: 3rem;
+    }
+}
+
+@import 'mobile';

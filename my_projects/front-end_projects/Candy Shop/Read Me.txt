@@ -1,0 +1,1 @@
+This is a responsive bootstrap template. Used Bootstrap version 5.0.

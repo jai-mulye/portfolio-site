@@ -1,0 +1,29 @@
+@media (max-width: 700px) {
+    main {
+        height: 400px;
+        justify-content: center;
+    }
+
+    .main-content {
+        text-align: center;
+
+        h1 {
+            font-size: 40px;
+        }
+    }
+
+    #astronaut {
+        display: none;
+    }
+}
+
+@media (max-width:450px) {
+    nav {
+        display: block;
+
+        li {
+            text-align: center;
+        }
+    }
+}
+

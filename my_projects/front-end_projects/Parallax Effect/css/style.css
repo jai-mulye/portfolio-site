@@ -1,0 +1,135 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.body {
+  background-color: #f9f9f9;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+section {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 2rem 2rem;
+  font-family: "Lato", sans-serif;
+  text-align: justify;
+}
+
+section h2 {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  margin: 0.75rem;
+}
+
+/* Align Text in center with help of Position */
+.img0, .img8 {
+  position: relative;
+}
+
+.text1 {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+}
+
+.text1 span {
+  font-size: 4rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+#effect {
+  font-size: 4rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem;
+}
+
+.img0, .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8 {
+  opacity: 0.7;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  max-width: 100%;
+}
+
+.img0 {
+  background-image: url("../images/lights.jpg");
+  height: 100vh;
+  opacity: 0.95;
+}
+
+.img1 {
+  background-image: url("../images/w1.jpg");
+  height: 600px;
+}
+
+.img2 {
+  background-image: url("../images/w2.jpg");
+  height: 600px;
+  background-position-y: -20px;
+}
+
+.img3 {
+  background-image: url("../images/w3.jpg");
+  height: 600px;
+}
+
+.img4 {
+  background-image: url("../images/w4.jpg");
+  height: 600px;
+}
+
+.img5 {
+  background-image: url("../images/w5.jpg");
+  height: 600px;
+}
+
+.img6 {
+  background-image: url("../images/w6.jpg");
+  height: 600px;
+}
+
+.img7 {
+  background-image: url("../images/w7.jpg");
+  height: 600px;
+  /* background-position-y: -120px; */
+}
+
+.img8 {
+  background-image: url("../images/lights.jpg");
+  height: 700px;
+  opacity: 0.95;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 900px) {
+  .img7 {
+    background-position-y: 0px;
+  }
+
+  .img2 {
+    background-position-y: 0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    min-width: 360px;
+  }
+
+  #effect {
+    font-size: 3rem;
+    padding: 0.5rem;
+  }
+}

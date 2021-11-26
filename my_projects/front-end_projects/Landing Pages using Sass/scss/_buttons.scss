@@ -1,0 +1,22 @@
+@import 'config';
+
+%btn {
+    display: inline-block;
+    padding: 0.7rem 1rem;
+    border-radius: 6px;
+
+    &:hover {
+        transform: scale(0.98);
+    }
+}
+
+.btn-primary {
+    @extend %btn;
+    @include set-background(lighten($primary-color, 10%));
+}
+
+.btn-secondary {
+    @extend %btn;
+    @include set-background($secondary-color);
+}
+
