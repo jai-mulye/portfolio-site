@@ -34,6 +34,7 @@
 
     .text-secondary {
       padding-bottom: 1rem;
+
     }
   }
 
@@ -43,25 +44,15 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 2rem;
+    // text-align: justify;
 
-    #edu {
-      font-size: 2.25rem;
-    }
+    // .text-secondary {
+    //   font-size: 1.25rem;
+    // }
 
-    .edu__q {
-      background: lighten($primary-color, 10%);
-      padding: 0.5rem;
-      border-bottom: 4px solid $secondary-color;
-      border-radius: 0.4rem;
-
-      h2,
-      h3 {
-        margin: 0.5rem 0;
-      }
-
-      h6 {
-        margin: 0.3rem;
-      }
+    p {
+      color: #fff;
+      // font-size: 1.15rem;
     }
   }
 
