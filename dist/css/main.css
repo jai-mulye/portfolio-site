@@ -219,6 +219,7 @@
 .about__bio {
   width: 80%;
   text-align: center;
+  font-size: 1.25rem;
 }
 
 .about__bio .text-secondary {
