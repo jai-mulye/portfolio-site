@@ -1,66 +1,75 @@
 @include media-md {
-    .menu-btn {
-      visibility: hidden;
-    }
-  
-    .nav {
-      visibility: visible;
-  
-      .menu-nav {
-        display: block;
-        transform: translateY(0);
-        height: 100%;
-        background: rgba($color: #000, $alpha: 1);
-        text-align: right;
-  
-        &__item {
-          display: inline;
-          padding-right: 1.5rem;
-        }
-  
-        &__link {
-          font-size: 1.5rem;
-        }
-      }
-    }
-  
-    .about__bio {
-      font-size: 1.5rem;
-    }
-  
-    .projects {
+  .menu-btn {
+    visibility: hidden;
+  }
 
-      &__bio-image {
-        height: 40vh;
+  .nav {
+    visibility: visible;
+
+    .menu-nav {
+      display: block;
+      transform: translateY(0);
+      height: 100%;
+      background: rgba($color: #000, $alpha: 1);
+      text-align: right;
+
+      &__item {
+        display: inline;
+        padding-right: 1.5rem;
+      }
+
+      &__link {
         font-size: 1.5rem;
       }
-      &__items {
-        grid-template-columns: repeat(2, 1fr);
-      }
-      .text-secondary {
-        font-size: 3rem;
-      }
-    }
-  
-    .contact__list {
-      grid-template-columns: repeat(2, 1fr);
-      margin-top: 5rem;
     }
   }
-  
-  @include media-lg {
-    .projects {
-      &__items {
-        grid-template-columns: repeat(3, 1fr);
-      }
+
+  .about__bio {
+    font-size: 1.5rem;
+  }
+
+  .edu {
+    .text-secondary {
+      font-size: 1.75rem;
     }
-    .contact__list {
+
+    p {
+      font-size: 1.35rem;
+    }
+  }
+
+  .projects {
+    &__bio-image {
+      height: 40vh;
+      font-size: 1.5rem;
+    }
+    &__items {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .text-secondary {
+      font-size: 3rem;
+    }
+  }
+
+  .contact__list {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 5rem;
+  }
+}
+
+@include media-lg {
+  .projects {
+    &__items {
       grid-template-columns: repeat(3, 1fr);
     }
   }
-  
-  @include media-xl {
-    .projects__bio-image {
-      height: 50vh;
-    }
+  .contact__list {
+    grid-template-columns: repeat(3, 1fr);
   }
+}
+
+@include media-xl {
+  .projects__bio-image {
+    height: 50vh;
+  }
+}
