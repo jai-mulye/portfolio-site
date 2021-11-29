@@ -235,24 +235,8 @@
   grid-gap: 2rem;
 }
 
-.about .edu #edu {
-  font-size: 2.25rem;
-}
-
-.about .edu .edu__q {
-  background: #414141;
-  padding: 0.5rem;
-  border-bottom: 4px solid #ff652f;
-  border-radius: 0.4rem;
-}
-
-.about .edu .edu__q h2,
-.about .edu .edu__q h3 {
-  margin: 0.5rem 0;
-}
-
-.about .edu .edu__q h6 {
-  margin: 0.3rem;
+.about .edu p {
+  color: #fff;
 }
 
 .about .social-icons {
@@ -524,6 +508,12 @@ footer {
   }
   .about__bio {
     font-size: 1.5rem;
+  }
+  .edu .text-secondary {
+    font-size: 1.75rem;
+  }
+  .edu p {
+    font-size: 1.35rem;
   }
   .projects__bio-image {
     height: 40vh;
